@@ -1,0 +1,24 @@
+.c-social {
+  display: flex;
+  width: 90px;
+  margin-left: auto;
+  margin-right: 20px;
+
+  &__instagram, &__facebook {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    padding: 12px;
+
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  &__instagram {
+    margin-right: 10px;
+  }
+}
+

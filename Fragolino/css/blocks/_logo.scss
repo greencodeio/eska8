@@ -1,0 +1,17 @@
+.c-logo {
+  width: 160px;
+
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+
+  &__part {
+    width: 100%;
+
+    &:first-child {
+      width: 65%;
+      margin-right: 10px;
+    }
+  }
+}

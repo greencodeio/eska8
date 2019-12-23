@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.o-body {
+  margin: 0;
+  padding: 0;
+}
+
+.o-wrapper {
+  padding: 0 15px;
+}
+
+.o-overflow {
+  overflow: hidden;
+}
+
+.u-link {
+  text-decoration: none;
+}
+
+.is-locked {
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .o-wrapper {
+    padding: 0 calc(50% - 640px);
+  }
+}
